@@ -1,0 +1,50 @@
+.winners {
+  padding: 2rem 0;
+}
+
+.winners h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.winners__table {
+  margin: 0 auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.winners__table th {
+  border-bottom: 1px solid #fff;
+}
+
+.winners__table button {
+  padding: 0 1rem;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+  position: relative;
+}
+
+.winners__table th,
+.winners__table td {
+  font-weight: normal;
+  padding: 2rem 3rem;
+}
+
+.winners__table .car-icon {
+  height: 7rem;
+}
+
+.sort-icon {
+  position: absolute;
+  right: 0;
+  top: 0.3rem;
+}
+
+.sort-icon span {
+  position: absolute;
+}
+
+.sort-icon .active {
+  color: #00cccc;
+}

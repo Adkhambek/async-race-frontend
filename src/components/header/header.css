@@ -1,0 +1,21 @@
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item:last-child {
+  margin-left: 1rem;
+}
+
+.nav-item .btn {
+  background-color: #01fffd;
+}
+
+.nav-item .btn:hover {
+  box-shadow: 4px 4px 0px #00cccc;
+}
+
+.nav-item .active {
+  box-shadow: 4px 4px 0px #00cccc;
+}

@@ -1,0 +1,48 @@
+.cars {
+  margin-top: 2rem;
+  padding: 0 3rem;
+}
+
+.car {
+  margin-bottom: 2rem;
+  border-bottom: 2px dashed #fff;
+}
+
+.car__btns-group {
+  margin: 1rem 0 3rem;
+}
+
+.car__btns-group button:disabled {
+  background-color: #848484;
+  cursor: default;
+}
+
+.car__btns-group .btn {
+  background-color: #ffe638;
+  margin-right: 0.5rem;
+}
+
+.car__btns-group .btn:not(:disabled):hover {
+  background-color: #f5bd00;
+}
+
+.car .playground {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.pagination .btn {
+  font-weight: bold;
+  color: #fff;
+  background-color: #00cccc;
+}
+
+.pagination .btn:disabled {
+  background-color: #848484;
+  cursor: default;
+}
