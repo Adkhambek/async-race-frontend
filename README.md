@@ -1,5 +1,13 @@
 # Async Race
 
+### Garage page
+
+![garage-page](https://github.com/Adkhambek/async-race-frontend/blob/site-images/garage-page.png?raw=true)
+
+### Winner page
+
+![winners-page](https://github.com/Adkhambek/async-race-frontend/blob/site-images/winners-page.png?raw=true)
+
 ## Description
 
 The task is to create SPA to manage the collection of the cars, operate its engines, and show races statistics.
